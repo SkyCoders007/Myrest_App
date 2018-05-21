@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="general_list">
+        <item >Restaurants</item>
+        <item >Hotels</item>
+        <item >Attractions</item>
+        <item >Shopping</item>
+    </string-array>
+    
+</resources>

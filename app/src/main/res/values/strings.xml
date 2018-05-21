@@ -1,0 +1,37 @@
+<resources>
+    <string name="app_name">Wazoo</string>
+
+    <string name="action_settings">Settings</string>
+    <string name="title_activity_splash">Splash</string>
+    <string name="title_activity_thank_you">ThankYouActivity</string>
+    <!-- <string name="welcome_screenname">Thank You\nFor Download WAZOO APP</string>-->
+    <string name="welcome_screenname">Thank you\nfor downloading Wazoo!</string>
+    <string name="welcome_wander">WAZOO APP</string>
+    <string name="description_name">Customize your settings and preferences to automatically get the best offers near you!
+        \nClick on Offers to generate a Receipt. Present Receipt to redeem offer.Get directions automatically.</string>
+
+    <!-- Nav Drawer Menu Items -->
+    <string-array name="nav_drawer_items">
+        <item>Home</item>
+        <item>Restaurant</item>
+        <item>Hotel</item>
+        <item>Shopping</item>
+    </string-array>
+
+    <!-- Nav Drawer List Item Icons -->
+    <!-- Keep them in order as the titles are in -->
+    <array name="nav_drawer_icons">
+        <item>@mipmap/ic_launcher</item>
+        <item>@mipmap/ic_launcher</item>
+        <item>@mipmap/ic_launcher</item>
+        <item>@mipmap/ic_launcher</item>
+    </array>
+
+    <!-- Content Description -->
+    <string name="desc_list_item_icon">Item Icon</string>
+    <string name="title_activity_nav_drawer_list_adapter">NavDrawerListAdapter</string>
+    <string name="title_activity_offer_dialog">OfferDialog</string>
+    <string name="title_activity_general_business">GeneralBusiness</string>
+
+    <string name="acra_toast">Error Occurred… send report to support team.</string>
+</resources>

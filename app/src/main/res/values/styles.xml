@@ -1,0 +1,137 @@
+<resources>
+
+    <!--
+        Base application theme, dependent on API level. This theme is replaced
+        by AppBaseTheme from res/values-vXX/styles.xml on newer devices.
+    -->
+    <style name="AppBaseTheme" parent="Theme.AppCompat">
+        <!--
+            Theme customizations available in newer API levels can go in
+            res/values-vXX/styles.xml, while customizations related to
+            backward-compatibility can go here.
+        -->
+    </style>
+
+    <!-- Application theme. -->
+    <style name="AppTheme" parent="AppBaseTheme">
+
+        <!--
+        <item name="sl_primaryColor">@color/color_yellow</item>
+        <item name="sl_secondaryColor">@color/color_yellow</item>
+-->
+        <item name="colorControlNormal">@color/color_gray</item>
+        <item name="colorControlActivated">@color/color_yellow</item>
+        <item name="colorSwitchThumbNormal">@color/color_gray</item>
+    </style>
+
+
+    <style name="Material.Widget"></style>
+
+    <style name="Material"></style>
+
+    <style name="Material.Widget.Slide">
+       <!-- <item name="sl_trackSize">2dp</item>
+        <item name="sl_trackCap">square</item>
+        <item name="sl_thumbBorderSize">2dp</item>
+        <item name="sl_thumbRadius">10dp</item>
+        <item name="sl_thumbFocusRadius">14dp</item>
+        <item name="sl_travelAnimDuration">@android:integer/config_mediumAnimTime</item>
+        <item name="sl_transformAnimDuration">@android:integer/config_shortAnimTime</item>
+        <item name="sl_interpolator">@android:anim/decelerate_interpolator</item>
+        <item name="sl_minValue">1</item>
+        <item name="sl_maxValue">7</item>
+        <item name="sl_stepValue">1</item>
+        <item name="sl_value">0</item>
+        <item name="sl_discreteMode">false</item>
+        <item name="sl_textSize">@dimen/abc_text_size_small_material</item>
+        <item name="sl_textColor">#FFFFFFFF</item>-->
+    </style>
+
+    <style name="Material.Widget.Slide.Discret" parent="Material.Widget.Slide">
+        <!--<item name="sl_discreteMode">true</item>-->
+    </style>
+
+    <!-- row list view -->
+    <style name="Material.Widget.Slider">
+       <!-- <item name="sl_trackSize">2dp</item>
+        <item name="sl_trackCap">square</item>
+        <item name="sl_thumbBorderSize">2dp</item>
+        <item name="sl_thumbRadius">10dp</item>
+        <item name="sl_thumbFocusRadius">14dp</item>
+        <item name="sl_travelAnimDuration">@android:integer/config_mediumAnimTime</item>
+        <item name="sl_transformAnimDuration">@android:integer/config_shortAnimTime</item>
+        <item name="sl_interpolator">@android:anim/decelerate_interpolator</item>
+        <item name="sl_minValue">0</item>
+        <item name="sl_maxValue">6</item>
+        <item name="sl_stepValue">1</item>
+        <item name="sl_value">0</item>
+        <item name="sl_discreteMode">false</item>
+        <item name="sl_textSize">@dimen/abc_text_size_small_material</item>
+        <item name="sl_textColor">#FFFFFFFF</item>-->
+    </style>
+
+    <style name="Material.Widget.Slider.Discrete" parent="Material.Widget.Slider">
+        <!--<item name="sl_discreteMode">true</item>-->
+    </style>
+
+    <style name="Material.Widget.Slid">
+        <!--<item name="sl_trackSize">2dp</item>
+        <item name="sl_trackCap">square</item>
+        <item name="sl_thumbBorderSize">2dp</item>
+        <item name="sl_thumbRadius">8dp</item>
+        <item name="sl_thumbFocusRadius">14dp</item>
+        <item name="sl_travelAnimDuration">@android:integer/config_mediumAnimTime</item>
+        <item name="sl_transformAnimDuration">@android:integer/config_shortAnimTime</item>
+        <item name="sl_interpolator">@android:anim/decelerate_interpolator</item>
+        <item name="sl_minValue">0</item>
+        <item name="sl_maxValue">6</item>
+        <item name="sl_stepValue">1</item>
+        <item name="sl_value">0</item>
+        <item name="sl_discreteMode">false</item>
+        <item name="sl_textSize">@dimen/abc_text_size_small_material</item>
+        <item name="sl_textColor">#FFFFFFFF</item>-->
+    </style>
+
+    <style name="Material.Widget.Slid.Discre" parent="Material.Widget.Slid">
+       <!-- <item name="sl_discreteMode">true</item>-->
+    </style>
+
+    <style name="Material.Widget.Slidera.Discrete.price" parent="Material.Widget.Slider">
+        <!--<item name="sl_discreteMode">true</item>-->
+    </style>
+
+    <!-- Price -->
+    <style name="Material.Widget.Slidera">
+       <!-- <item name="sl_trackSize">2dp</item>
+        <item name="sl_trackCap">square</item>
+        <item name="sl_thumbBorderSize">2dp</item>
+        <item name="sl_thumbRadius">8dp</item>
+        <item name="sl_thumbFocusRadius">14dp</item>
+        <item name="sl_travelAnimDuration">@android:integer/config_mediumAnimTime</item>
+        <item name="sl_transformAnimDuration">@android:integer/config_shortAnimTime</item>
+        <item name="sl_interpolator">@android:anim/decelerate_interpolator</item>
+        <item name="sl_minValue">0</item>
+        <item name="sl_maxValue">1</item>
+        <item name="sl_stepValue">1</item>
+        <item name="sl_value">0</item>
+        <item name="sl_discreteMode">false</item>
+        <item name="sl_textSize">@dimen/abc_text_size_small_material</item>
+        <item name="sl_textColor">#FFFFFFFF</item>-->
+    </style>
+
+    <style name="Material.Widget.Slider.Discrete.price" parent="Material.Widget.Slidera">
+        <!--<item name="sl_discreteMode">true</item>-->
+    </style>
+
+    <style name="Animation" parent="android:Theme">
+        <item name="android:windowEnterAnimation">@anim/bottom_to_center</item>
+        <item name="android:windowExitAnimation">@anim/center_to_bottom</item>
+    </style>
+
+    <style name="StarRatingBar" parent="@android:style/Widget.RatingBar">
+        <item name="android:progressDrawable">@drawable/star_rating_bar_full</item>
+        <item name="android:minHeight">48dip</item>
+        <item name="android:maxHeight">20dip</item>
+    </style>
+
+</resources>

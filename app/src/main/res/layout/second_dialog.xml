@@ -1,0 +1,130 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="#FFF"
+    android:orientation="vertical"
+    android:padding="3dp" >
+
+    <LinearLayout
+        android:id="@+id/ll_second"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/receiptborder"
+        android:orientation="vertical"
+        android:padding="45dp" >
+
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:divider="@color/color_yellow"
+            android:dividerHeight="1dp"
+            android:orientation="vertical" >
+
+            <TextView
+                android:id="@+id/tv_headname"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center|center_vertical"
+                android:divider="#94ECFE"
+                android:dividerHeight="1dp"
+                android:gravity="center|center_vertical"
+                android:padding="5dp"
+                android:text="Wazoo Receipt"
+                android:textAppearance="?android:attr/textAppearanceLarge"
+                android:textColor="#000"
+                android:textStyle="bold"
+                android:typeface="serif" />
+
+        </LinearLayout>
+
+     
+            <LinearLayout
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="10dp"
+                android:layout_marginLeft="10dp"
+                android:layout_marginRight="10dp"
+                android:orientation="vertical" >
+
+                <TextView
+                    android:id="@+id/tv_offer_price"
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Price"
+                    android:textAppearance="?android:attr/textAppearanceMedium"
+                    android:textColor="#000"
+                    android:textSize="15sp"
+                    android:typeface="serif" />
+
+                <TextView
+                    android:id="@+id/tv_descriptions"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="3dp"
+                    android:text="Description"
+                    android:textAppearance="?android:attr/textAppearanceMedium"
+                    android:textColor="#000"
+                    android:textSize="12sp"
+                    android:typeface="serif" />
+
+                <TextView
+                    android:id="@+id/tv_company_name"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="3dp"
+                    android:text="at TGB"
+                    android:textAppearance="?android:attr/textAppearanceMedium"
+                    android:textColor="#000"
+                    android:textSize="12sp"
+                    android:textStyle="bold"
+                    android:typeface="serif" />
+
+                <TextView
+                    android:id="@+id/offer_tv_address"
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="3dp"
+                    android:maxLines="2"
+                    android:text="Pakvan 2, Ahmedabad"
+                    android:textAppearance="?android:attr/textAppearanceMedium"
+                    android:textColor="#000"
+                    android:textSize="10sp"
+                    android:typeface="serif" />
+
+                <TextView
+                    android:id="@+id/offer_tv_date"
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="3dp"
+                    android:text="Feb 1 2016 2:30"
+                    android:textAppearance="?android:attr/textAppearanceMedium"
+                    android:textColor="#000"
+                    android:textSize="10sp"
+                    android:typeface="serif" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textAppearance="?android:attr/textAppearanceSmall"
+                    android:textColor="#000"
+                    android:textSize="10sp"
+                    android:layout_marginTop="3dp"
+                    android:id="@+id/tv_valid"
+                    android:text="Valid" />
+
+                <TextView
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="3dp"
+                    android:gravity="right"
+                    android:text="Please present to redeem offer"
+                    android:textAppearance="?android:attr/textAppearanceMedium"
+                    android:textColor="#000"
+                    android:textSize="10sp"
+                    android:typeface="serif" />
+            </LinearLayout>
+
+    </LinearLayout>
+
+</LinearLayout>

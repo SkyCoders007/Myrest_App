@@ -1,0 +1,203 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    xmlns:app1="http://schemas.android.com/tools"
+    android:background="@drawable/ic_background"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:background="#F9A246"
+        android:orientation="vertical" >
+
+        <TextView
+            android:id="@+id/tv_rest_head"
+            android:layout_width="fill_parent"
+            android:layout_height="50dp"
+            android:layout_gravity="center"
+            android:gravity="center"
+            android:padding="6dp"
+            android:text="Restaurents"
+            android:textColor="#ffffff"
+            android:textSize="20sp" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="6dp"
+        android:orientation="vertical" >
+
+        <TextView
+            android:id="@+id/tv_addprice"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:paddingLeft="10dp"
+            android:paddingRight="10dp"
+            android:paddingTop="10dp"
+            android:text="Add Price"
+            android:textColor="#ffffff"
+            android:textSize="16sp" />
+
+        <com.rey.material.widget.Slider
+            android:id="@+id/slider_sl_pizza"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            app:sl_value="50"
+            app1:sl_thumbBorderSize="2dp"
+            app1:sl_thumbRadius="8dp" />
+
+    </LinearLayout>
+
+    <ScrollView
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+        android:background="@color/list_divider"
+        android:divider="@color/list_divider"
+        android:scrollbarStyle="outsideOverlay" >
+
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:layout_margin="10dp"
+            android:divider="@color/list_divider"
+            android:orientation="vertical"
+            android:padding="5dp" >
+
+            <LinearLayout
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content" >
+
+                <TextView
+                    android:id="@+id/tv_pizza"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:text="Pizza"
+                    android:textColor="#ffffff"
+                    android:textSize="15sp" />
+
+                <com.rey.material.widget.CheckBox
+                    android:id="@+id/switches_cb1"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginRight="20dp"
+                    android:checked="true"
+                    android:gravity="center_vertical"
+                    android:textSize="14sp" />
+            </LinearLayout>
+
+            <com.rey.material.widget.Slider
+                android:id="@+id/slider_sl_continuous"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                app:sl_value="50"
+                app1:sl_thumbBorderSize="2dp"
+                app1:sl_thumbRadius="8dp" />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="15dp" >
+
+                <TextView
+                    android:id="@+id/tv_vadilal"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:text="Vadilal"
+                    android:textColor="#ffffff"
+                    android:textSize="15sp" />
+
+                <com.rey.material.widget.CheckBox
+                    android:id="@+id/switches_cb2"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginRight="20dp"
+                    android:checked="false"
+                    android:gravity="center_vertical"
+                    android:textSize="14sp" />
+            </LinearLayout>
+
+            <SeekBar
+                android:id="@+id/slider_sl_vadilal"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                app:sl_value="50"
+                app1:sl_thumbRadius="8dp" />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="15dp" >
+
+                <TextView
+                    android:id="@+id/tv_burger"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:text="Burger"
+                    android:textColor="#ffffff"
+                    android:textSize="15sp" />
+
+                <CheckBox
+                    android:id="@+id/switches_cb3"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginRight="20dp"
+                    android:checked="false"
+                    android:gravity="center_vertical"
+                    android:textSize="14sp" />
+            </LinearLayout>
+
+            <SeekBar
+                android:id="@+id/slider_sl_burger"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                app:sl_value="50"
+                app1:sl_thumbRadius="8dp" />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="15dp" >
+
+                <TextView
+                    android:id="@+id/tv_joes"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:text="Smokin&apos;s Joe&apos;s"
+                    android:textColor="#ffffff"
+                    android:textSize="15sp" />
+
+                <CheckBox
+                    android:id="@+id/switches_cb4"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginRight="20dp"
+                    android:checked="false"
+                    android:gravity="center_vertical"
+                    android:textSize="14sp" />
+            </LinearLayout>
+
+            <SeekBar
+                android:id="@+id/slider_sl_joe"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                app:sl_value="50"
+                app1:sl_thumbRadius="8dp" />
+        </LinearLayout>
+    </ScrollView>
+
+</LinearLayout>
